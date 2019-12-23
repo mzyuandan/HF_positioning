@@ -1,5 +1,8 @@
 import math
 import numpy as np
+import matplotlib as mpl
+mpl.use('tkagg')
+
 import matplotlib.pyplot as plt
 
 def fun_fd(x, v, f0, fd, c):
